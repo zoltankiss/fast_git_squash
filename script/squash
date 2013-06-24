@@ -1,0 +1,3 @@
+require File.expand_path('../../lib/git_shortcuts', __FILE__)
+
+Git.new(Dir.pwd).squash
